@@ -1,0 +1,33 @@
+.nav{
+    background:black;
+    height:4rem;
+    display:flex;
+    align-items: center;
+}
+
+.navList{
+    width:30%;
+    display: flex;
+    align-items: center;
+}
+
+.listItem{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color:#fbff00;
+    cursor:pointer;
+    margin-right:20px;
+}
+
+.listItem:hover{
+    color:whitesmoke
+}
+
+@media (max-width:760px){
+    .navList{
+        width:100%;
+        display: flex;
+        align-items: center;
+    }
+}

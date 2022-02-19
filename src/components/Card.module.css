@@ -1,0 +1,39 @@
+.card{
+    width:50%;
+    margin:0 auto;
+    border:1px solid rgba(245, 245, 245, 0.774);
+    padding:2rem;
+    border-radius:20px;
+    box-shadow: 2px 3px 2px 3px #E0E2F0;
+}
+
+.card h2{
+    text-align: center;
+}
+
+.card .addPost{
+    margin-bottom:1rem;
+    background:green;
+    color:beige;
+    width:20%;
+    padding:0.8rem;
+}
+
+.cardCover{
+    padding:2rem;
+}
+
+@media (max-width:760px){
+    .card{
+        width:auto;
+        padding:1rem
+    }
+
+    .cardCover{
+        padding:0rem;
+    }
+
+    .card .addPost{
+        width:50%;
+    }
+}

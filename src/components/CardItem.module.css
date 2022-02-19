@@ -1,0 +1,18 @@
+button{
+    margin-right:0.5rem;
+    cursor:pointer;
+    padding:0.3rem;
+    font-size:0.8rem;
+    font-family:inherit;
+    border-radius:0.3rem;
+}
+
+.delete{
+    background: rgba(255, 0, 0, 0.884);
+}
+
+.cardItem{
+    box-shadow: 2px 2px 2px 2px #E0E2F0;
+    padding:1rem;
+    margin-bottom:1rem;
+}
