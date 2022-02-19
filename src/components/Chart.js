@@ -1,10 +1,11 @@
 import Nav from './Nav'
-import Chart from 'chart.js/auto';
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Pie } from 'react-chartjs-2';
 import {useEffect, useState} from 'react'
 import axios from 'axios'
 import chartStyles from './Chart.module.css'
   
+ChartJS.register(ArcElement, Tooltip, Legend);
 
 const ChartData =()=> {
 
